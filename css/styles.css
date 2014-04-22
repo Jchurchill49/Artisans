@@ -1,44 +1,23 @@
-/* Your Awesome Website */
-@font-face {
-    font-family: 'great_vibesregular';
-    src: url('greatvibes-regular-webfont.eot');
-    src: url('greatvibes-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('greatvibes-regular-webfont.woff') format('woff'),
-         url('greatvibes-regular-webfont.ttf') format('truetype'),
-         url('greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'quicksandregular';
-    src: url('quicksand-regular-webfont.eot');
-    src: url('quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('quicksand-regular-webfont.woff') format('woff'),
-         url('quicksand-regular-webfont.ttf') format('truetype'),
-         url('quicksand-regular-webfont.svg#quicksandregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
+/*=================
+		global
+===================*/
 
 body{
-	background: url();
+	background: #fff;
 }
 
 
 
-.intro{
-	font-size: 1.25em;
-	margin-top:6%;
-}
+/*=================
+		Headings
+===================*/
 
 h1{
-	font-size: 3em;
+	font-size: 1.25em;
 	text-align: center;
-	margin-top: .5em;
-	color:rgb(10,47,101);
-	font-family: 'great_vibes', sans-serif;
+	margin-top: 6%;
+	color:rgba(79, 102, 151, 1);
+	
 }
 h2{
 	font-size: 1em;
@@ -46,10 +25,20 @@ h2{
 	color:rgb(10,47,101);
 	margin-top: 3rem;
 }
+h3{
+
+}
 
 h4{
 	
 }
+h5{
+
+}
+
+/*=================
+		Header
+===================*/
 
 .logo{
 	max-width: 100%;
@@ -69,13 +58,61 @@ text-align: center;
 	
 	text-decoration: none;
 	list-style: none;
-	float:left;
-	margin:2%;
-	font-size: .75em;
-	background-color:green;
+	float:right;
+	margin:2% 2% 2% 5%;
+	font-size: 1em;
+	color:#fff;
+	background:rgba(49, 48, 75,1);
 	
 }
 
+.nav a,
+.footer a{
+	color:#fff;
+	padding: 20px;
+
+}
+
+.nav a:hover,
+.footer a:hover {
+	color:#fff;
+	background-color:rgba(79, 102, 151,1);
+	padding: 22px;
+}
+.mission{
+	margin: .2em;
+	font-size: .8em;
+}
+
+.button{
+	background-color:rgba(235, 92, 0, 1);
+}
+
+.button:hover{
+	background-color: rgba(251, 187, 118, 1);
+}
+/*=================
+    Footer
+
+===================*/
+
+.copyright{
+	margin-right: 15%;
+}
+/*=================
+    Anchor
+===================*/
+a{
+	color: rgba(235, 92, 0, 1);
+}
+
+a:hover{
+	color: rgba(251, 187, 118, 1);
+}
+
+/*=================
+    Orbit slider
+===================*/
 
 .orbit{
 	
@@ -89,31 +126,16 @@ text-align: center;
 
 
 
-.pricing-table{
- 	border:none;
-}
 
-
-
-.pricing-table .description {
-background-color:rgba(230,230,230, .25);
-padding: 0.9375rem;
-text-align: left;
-color: #777777;
-font-size: 0.75rem;
-font-weight: normal;
-line-height: 1.4;
-border-bottom: dotted 1px #dddddd;
-}
 
 img, object{
 max-width: 100%;
 height: 200px;
 }
 
-.address{
-list-style: none;
-}
+
+
+
 
 .icon{
 	height: 30px;
@@ -122,17 +144,10 @@ list-style: none;
 	padding:1%;
 }
 
-a{
-	color: black;
-}
 
-.panel{
-	background-color:rgba(255,255,255, .5);
-}
-table{
-	border-style: none;
-	background-color:rgba(255,255,255, .5);
-}
+
+
+
  
 
 
