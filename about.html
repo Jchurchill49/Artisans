@@ -25,18 +25,25 @@ Services </br>for Persons with Disabilities</h1>
 
     </div>
 
+   
     <div class="large-12 columns nav">
-
-            
             <ul>
                 <li class="nav"><a href="index.html">Home</a></li>
-                <li class="nav"><a href="about.html">All About Us</a></li>
-                <li class="nav"><a href="clientApp.html">Client Application</a></li>
-                <li class="nav"><a href="meetStaff.html">Meet Our Staff</a></li>
-                <li class="nav"><a href="directors.html">Our Board of Directors</a></li>
+                <li class="nav"><a href="about.html" data-dropdown="hover1" data-options="is_hover:true">About</a>
+                      <ul id="hover1" class="f-dropdown" data-dropdown-content>
+                      <li><a href="about.html">About</li>
+                      <li><a href="meetStaff.html">Meet Our Staff</li>
+                      <li><a href="directors.html">Board of Directors</a></li>
+                      </ul>
+                </li>
                 <li class="nav"><a href="donate.html">Donations</a></li>
                 <li class="nav"><a href="contactUs.html">Contact Us!</a></li>
-                <li class="nav"><a href="clientServices.html">Client Services</a></li>
+                <li class="nav"><a href="client.html" data-dropdown="hover2" data-options="is_hover:true">Client</a>
+                    <ul id="hover2" class="f-dropdown" data-dropdown-content>
+                      <li><a href="clientServices.html">Client Services</li>
+                      <li><a href="clientApp.html">Apply</a></li>
+                    </ul>
+                  </li>
             </ul>
    
      </div>
@@ -91,25 +98,28 @@ Services </br>for Persons with Disabilities</h1>
 
      </div>
 
-  <!-- Footer -->
+   <!-- Footer -->
   
-  <footer class="row footer">
-    <div class="large-12 columns">
-      <hr />
-      <div class="row">
-        <div class="large-6 columns">
-          <p>© 2013-2014 Sushi Maru</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#contact">Contact</a></li>
-             <li><a href="#hours">Hours of Operation</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> 
+ <footer class="row">
+   
+      <ul class="large-12 columns footer">
+          
+           <li class="footer">© 2013-2014 DJKML</li>
+          <li class="footer"><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=hpuPaQHg_VDF733Gv16AlWSL0XGDbyv8QRMZAVT-rGPVqo7ehIrbD3xtBW0&dispatch=5885d80a13c0db1f8e263663d3faee8d8cdcf517b037b4502f6cc98f1ee6e5fb">Donate</a>
+          </li>
+           <li class="footer">
+                <a href="http://www.scheduleanywhere.com/login/">Client Schedule</a>
+          </li>
+           <li class="footer">
+          <a href="https://www.facebook.com/pages/The-Artisans/121865197854491">Facebook</a>
+          </li>
+          <li class="footer"><a href="https://twitter.com/TheArtisansSpo">Twitter</a>
+          </li>
+      </ul>
+            
   </footer>
+
+     <!-- End Footer -->
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
