@@ -1,4 +1,13 @@
 /*=================
+		colors
+===================*/
+blue (68, 134, 198)
+dark orange (245, 135, 31)
+lt orange (234, 194, 154)
+lt gray (202, 209, 215)
+dk gray (55, 162, 169)
+
+/*=================
 		global
 ===================*/
 
@@ -16,7 +25,7 @@ h1{
 	font-size: 1.25em;
 	text-align: center;
 	margin-top: 6%;
-	color:rgba(79, 102, 151, 1);
+	color:rgba(68, 134, 198, 1);
 	
 }
 h2{
@@ -30,7 +39,7 @@ h3{
 }
 
 h4{
-	
+	color:rgba(68, 134, 198, 1);
 }
 h5{
 
@@ -62,7 +71,7 @@ text-align: center;
 	margin:2% 2% 2% 5%;
 	font-size: 1em;
 	color:#fff;
-	background:rgba(49, 48, 75,1);
+	background:rgba(68, 134, 198, 1);
 	
 }
 
@@ -76,12 +85,12 @@ text-align: center;
 .nav a:hover,
 .footer a:hover {
 	color:#fff;
-	background-color:rgba(79, 102, 151,1);
+	background-color:rgba(202, 209, 215, 1);
 	padding: 22px;
 }
 .mission{
 	margin: .2em;
-	font-size: .8em;
+	font-size: 1em;
 }
 
 .button{
@@ -97,17 +106,17 @@ text-align: center;
 ===================*/
 
 .copyright{
-	margin-right: 15%;
+	margin-right: 5%;
 }
 /*=================
     Anchor
 ===================*/
 a{
-	color: rgba(235, 92, 0, 1);
+	color: rgba(245, 135, 31, 1)
 }
 
 a:hover{
-	color: rgba(251, 187, 118, 1);
+	color: rgba(234, 194, 154, 1)
 }
 
 /*=================
